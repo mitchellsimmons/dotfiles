@@ -98,7 +98,7 @@
 			<key>name</key>
 			<string>Comments</string>
 			<key>scope</key>
-			<string>comment.block.documentation</string>
+			<string>comment.block.documentation, punctuation.definition.comment.begin.python, punctuation.definition.comment.end.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -120,13 +120,14 @@
 			<key>name</key>
 			<string>Keyword, Storage</string>
 			<key>scope</key>
-			<string>keyword, storage.type</string>
+			<string>keyword, storage.type, keyword.operator.logical.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#79B865</string>
 			</dict>
 		</dict>
+		
 		<dict>
 			<key>name</key>
 			<string>Operator, Misc</string>
@@ -139,6 +140,18 @@
 			</dict>
 		</dict>
 		
+
+		<dict>
+			<key>name</key>
+			<string>Operator, Misc</string>
+			<key>scope</key>
+			<string>punctuation.separator.dictionary-or-set.python, punctuation.separator.lists.python, punctuation.separator.arguments.python, punctuation.separator.parameters.python, keyword.operator.assignment.python, keyword.operator.arithmetic.python, keyword.operator.comparison.python, punctuation.separator.list.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BF6224</string>
+			</dict>
+		</dict>
 
 		<dict>
 			<key>name</key>
@@ -261,6 +274,7 @@
 				<string>#CDD3DE</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Function</string>
@@ -272,6 +286,20 @@
 				<string>#BF6224</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Function</string>
+			<key>scope</key>
+			<string>support.function.builtin.python </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B388B8</string>
+			</dict>
+		</dict>
+
+
 		<dict>
 			<key>name</key>
 			<string>Other Variable, String Link</string>
@@ -291,7 +319,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffeb95</string>
+				<string>#CDD3DE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -316,17 +344,19 @@
 				<string>#C75967</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>String, Symbols, Inherited Class, Markup Heading</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter</string>
+			<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, punctuation.definition.string.begin.python, punctuation.definition.string.end.python, source.regexp.python, keyword.control.anchor.regexp, constant.other.character-class.set.regexp, punctuation.definition.character-class.begin.regexp, punctuation.definition.character-class.end.regexp, keyword.operator.quantifier.regexp, punctuation.definition.group.begin.regexp, punctuation.definition.group.end.regexp, constant.character.character-class.regexp, punctuation.definition.placeholder.begin.python, punctuation.definition.placeholder.end.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#5291C7</string>
 			</dict>
 		</dict>
+		
 		<dict>
 			<key>name</key>
 			<string>Class, Support</string>
