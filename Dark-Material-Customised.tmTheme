@@ -96,6 +96,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Comments</string>
+			<key>scope</key>
+			<string>comment.block.documentation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5291C7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
 			<string>variable</string>
@@ -113,7 +124,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E37D85</string>
+				<string>#79B865</string>
 			</dict>
 		</dict>
 		<dict>
@@ -124,9 +135,11 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#46acdb</string>
+				<string>#CDD3DE</string>
 			</dict>
 		</dict>
+		
+
 		<dict>
 			<key>name</key>
 			<string>Operator, Misc</string>
@@ -239,13 +252,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function, Special Method, Block Level</string>
+			<string>Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>meta.function-call, keyword.other.special-method, meta.block-level</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6699CC</string>
+				<string>#CDD3DE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function</string>
+			<key>scope</key>
+			<string>entity.name.function, support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BF6224</string>
 			</dict>
 		</dict>
 		<dict>
@@ -263,11 +287,33 @@
 			<key>name</key>
 			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
 			<key>scope</key>
-			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit</string>
+			<string>support.constant, constant.character, variable.parameter, punctuation.section.embedded, keyword.other.unit</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#ffeb95</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
+			<key>scope</key>
+			<string>constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#79B865</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C75967</string>
 			</dict>
 		</dict>
 		<dict>
@@ -278,18 +324,31 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D1E6AF</string>
+				<string>#5291C7</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Class, Support</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter</string>
+			<string>entity.name.class, entity.name.type.class, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DB7F85</string>
+				<string>#DEA964</string>
+				<key>background</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Class, Support</string>
+			<key>scope</key>
+			<string>support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C75967</string>
 				<key>background</key>
 				<string></string>
 			</dict>
@@ -315,7 +374,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#EC5F67</string>
+				<string>#DEA964</string>
 			</dict>
 		</dict>
 		<dict>
