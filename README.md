@@ -19,7 +19,7 @@ Development Environment Settings
 1. Install Packages
     - autoDocstring
     - Error Gutters
-    - file-cons
+    - file-icons
     - MagicPython
 2. Place (copy and replace) settings.json in: %APPDATA%/Code/User/settings.json
 3. Place theme-darcula-customised folder in %HOMEPATH%/.vscode/extensions
