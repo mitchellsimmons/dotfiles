@@ -1,0 +1,12 @@
+{
+	"python_interpreter_path": "C:\\Python27\\python",
+    "python_package_paths": [
+        // My virtualenv python project location (This actually interferes with the devkit installation)
+        //"C:\\Program Files\\Autodesk\\Maya2019\\Python\\Lib\\site-packages",
+        // My virtualenv python project location
+        "C:\\Python27\\Lib\\site-packages",
+        // Maya's python stubs (must install devkit first)
+        "C:\\Program Files\\Autodesk\\Maya2019\\devkit\\other\\pymel\\extras\\completion\\py"
+        ],
+    "enable_tooltip": false
+}

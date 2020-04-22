@@ -1,0 +1,20 @@
+{
+	"name": "theme-darcula-customised",
+	"displayName": "%displayName%",
+	"description": "%description%",
+	"version": "1.0.0",
+	"publisher": "vscode",
+	"license": "MIT",
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Darcula Customised",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darcula-customised-color-theme.json"
+			},
+		]
+	}
+}

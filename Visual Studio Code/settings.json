@@ -1,0 +1,36 @@
+{
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 15,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "window.zoomLevel": 0,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/*.pyc": {
+            "when": "$(basename).py"
+        },
+        "**/__pycache__": true,
+        "**/.tmp.drivedownload": true,
+        "**/.vscode": true,
+        "**/*.sublime-project": true,
+        "**/*.sublime-workspace": true,
+    },
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501,E402,W503"
+    ],
+    "autoDocstring.generateDocstringOnEnter": true,
+    "autoDocstring.docstringFormat": "google",
+    "autoDocstring.startOnNewLine": true,
+    "python.autoComplete.extraPaths": [
+        "C:\\Program Files\\Autodesk\\Maya2019\\devkit\\other\\pymel\\extras\\completion\\py",
+        "C:\\Python27\\Lib\\site-packages"
+    ],
+    "workbench.colorTheme": "Darcula Customised",
+    "workbench.colorCustomizations": {},
+    "editor.tokenColorCustomizations": {
+        "textMateRules": []
+    },
+}
